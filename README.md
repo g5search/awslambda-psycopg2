@@ -16,3 +16,10 @@ Go to the original package if you wish to modify this from source
 
 ### Usage
 Same as normal psycopg2. `import psycopg2` and use related libraries as needed.
+
+### Modifications
+If you need to make changes to the import or update the library make sure to test with the docker image
+`docker build .` should rebuild the image and test the latest change.
+
+
+You'll also need to make sure you update the versions in the `Dockerfile` and in the `setup.py`
