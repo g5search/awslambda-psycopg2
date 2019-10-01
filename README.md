@@ -13,3 +13,6 @@ It only includes the `with_ssl_support` version. Since that will generally be re
 
 ### Building from source
 Go to the original package if you wish to modify this from source
+
+### Usage
+Same as normal psycopg2. `import psycopg2` and use related libraries as needed.
